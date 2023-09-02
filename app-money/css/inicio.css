@@ -1,0 +1,124 @@
+body {
+  background-color: #030433;
+  padding: 5%;
+}
+.fondo-avatar {
+  background-color: rgba(255, 255, 255, 0.493);
+  width: 100%;
+  border-radius: 50%;
+}
+#avatar {
+  width: 100%;
+}
+h2 > div::first-line {
+  color: black;
+  color: rgb(255, 255, 255);
+}
+.row {
+  display: flex;
+  align-items: center;
+}
+#figura1 {
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  .arriba {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    .punto-arribai {
+      background-color: aliceblue;
+      width: 20px;
+      height: 10px;
+      border-radius: 50%;
+    }
+    .punto-arribad {
+      background-color: aliceblue;
+      width: 20px;
+      height: 10px;
+      border-radius: 50%;
+    }
+  }
+  .abajo {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    .punto-abajoi {
+      background-color: aliceblue;
+      width: 20px;
+      height: 10px;
+      border-radius: 50%;
+    }
+    .punto-abajod {
+      background-color: aliceblue;
+      width: 20px;
+      height: 10px;
+      border-radius: 50%;
+    }
+  }
+}
+
+#balance {
+  color: rgb(124, 118, 109);
+  font-weight: 700;
+}
+#dinero {
+  color: aliceblue;
+  font-size: 20vw;
+  display: flex;
+}
+#dinero::after {
+  content: "+2%";
+  border-radius: 10px;
+  font-size: medium;
+  rotate: 345deg;
+  background-color: rgb(38, 0, 255);
+  height: 1%;
+}
+#flecha {
+  width: 50px;
+}
+#transaction {
+  color: aliceblue;
+  height: 40px;
+  font-size: xx-large;
+  font-weight: 800;
+}
+#figura2 {
+  display: flex;
+  justify-content: flex-end;
+  .parte-izq {
+    background-color: aliceblue;
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .parte-der {
+    background-color: aliceblue;
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+  }
+}
+#data {
+  padding-left: 3%;
+}
+#ltc-img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 700px) {
+  #balance {
+    font-size: xx-large;
+  }
+  #flecha {
+    width: 70px;
+  }
+  #dinero::after {
+    margin-top: 20px;
+  }
+}
